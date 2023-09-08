@@ -1,0 +1,17 @@
+{
+  "name": "wallpaper-w-custom-text",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "wallpaper": "^7.0.0"
+  }
+}
