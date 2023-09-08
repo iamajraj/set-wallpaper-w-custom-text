@@ -22,7 +22,7 @@ async function createWallpaper(text) {
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
   ctx.fillStyle = '#fff';
-  ctx.font = '90px Hack NF';
+  ctx.font = '90px Poppins';
   ctx.textAlign = 'center';
   ctx.fillText(text, canvas.width / 2, canvas.height / 2);
 
