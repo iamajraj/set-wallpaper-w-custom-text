@@ -47,7 +47,7 @@ async function askForBGTemplate() {
 
 async function askForText() {
   return new Promise((resolve) => {
-    read.question("[x] What's next? : ", resolve);
+    read.question("[x] What's the text? : ", resolve);
   });
 }
 
