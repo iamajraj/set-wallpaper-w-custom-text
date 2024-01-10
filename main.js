@@ -79,8 +79,7 @@ function saveAsImage(buffer) {
 
 async function main() {
   await askForBGTemplate();
-  const text = await askForText();
-  if (!text) return;
+  const text = (await askForText()) ?? '';
   const buffer = await createWallpaper((text ?? '').trim());
   saveAsImage(buffer);
   await setWallpaper(OUTPUT_PATH);
